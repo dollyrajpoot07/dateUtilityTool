@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📅 Date Utility Tool – ReactJS
 
-## Getting Started
+The **Date Utility Tool** is a comprehensive utility built in React that allows users to interact with and manipulate date objects through an intuitive interface. It demonstrates multiple JavaScript `Date` operations such as formatting, calculating differences, and shifting dates, while also showcasing React Hooks like `useState` and `useEffect`.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Feature                | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| 🕒 Live Clock          | Displays the current date and time updated in real-time                     |
+| 📅 Date Input          | Lets users select any date using an HTML date picker                        |
+| 🔄 Date Formatting     | Converts selected date into `DD/MM/YYYY`, `MM-DD-YYYY`, and `YYYY/MM/DD`    |
+| 🗓️ Day & Month Info   | Shows the full name of the weekday and month for the selected date          |
+| ➕ Add/Subtract Days    | Lets users add or subtract N days from the selected date                    |
+| 🧮 Date Difference     | Displays how many days are between today and the selected date              |
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Technologies Used
 
-## Learn More
+- ⚛️ **React.js** (Client Component)
+- 🎣 **React Hooks**: `useState`, `useEffect`
+- 🧠 **JavaScript Date API** for formatting and time manipulation
+- 🎨 **CSS Modules** for scoped styling
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+<img width="835" alt="Screenshot 2025-07-06 at 1 56 08 AM" src="https://github.com/user-attachments/assets/64c9c4cc-8651-4499-aff1-471074331cb4" />
+<img width="896" alt="Screenshot 2025-07-06 at 1 55 55 AM" src="https://github.com/user-attachments/assets/ae096199-6583-4dc2-8b30-e7ed3fd2ba4f" />
